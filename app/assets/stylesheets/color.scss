@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+form, fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+label, input {
+	display: block;
+}
+label {
+	padding-bottom: 1em;
+}
+.i {
+	display: inline-block;
+	padding-bottom: 0;
+	input {
+		display: inline-block;
+	}
+}
